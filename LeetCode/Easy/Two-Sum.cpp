@@ -7,13 +7,12 @@
 - Status: Accepted
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-05-02T12:24:20.995Z
+- Solved At: 2026-05-02T12:25:08.991Z
 
 ## Code
 ```cpp
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List
-[int]:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
         i =0
         
         while(i<=len(nums)):
