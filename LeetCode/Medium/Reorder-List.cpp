@@ -6,22 +6,24 @@
 - Language: C++
 - Status: Accepted
 - Runtime: 0 ms
-- Memory: N/A
-- Solved At: 2026-05-08T18:43:06.727Z
+- Memory: 27.89
+MB
+- Solved At: 2026-05-08T18:50:00.078Z
 
 ## Code
 ```cpp
-after = second.next
-            second.next = prev
-            prev = second
-            second = after
-        second = prev
+second = prev
         first = head
         while second:
             temp1 = first.next
             temp2 = second.next
             first.next = second
             second.next = temp1
-            first = temp1
-            second = temp2
+            first = temp1 
+            second = temp2 
+            
+        
+            second = after 
+            prev =second
+            second.next = prev
 ```
